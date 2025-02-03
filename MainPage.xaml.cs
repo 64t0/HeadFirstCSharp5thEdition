@@ -17,7 +17,7 @@
             List<string> animalEmoji = [
                 "🐙", "🐙",
                 "🐡", "🐡",
-                "🐙", "🐙",
+                "🦔", "🦔",
                 "🐘", "🐘",
                 "🐳", "🐳",
                 "🐪", "🐪",
@@ -37,7 +37,7 @@
                 {
                     index += 1;
                 }
-                else if (counter==16)
+                else if (counter>16)
                 {
                     break;
                 }
@@ -48,7 +48,7 @@
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-
+            
         }
 
 
